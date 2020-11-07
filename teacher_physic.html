@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Физика для учителей</title>
+    <script
+      src="https://kit.fontawesome.com/1c131fc198.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <ul class="mobile-menu" id="mobileMenu">
+      <i class="fas fa-times" id="closeMenu"></i>
+      <li><a href="index.html">Главная</a></li>
+      <li class="expandable">
+        <a href="#">Экзамены</a>
+        <ul class="menu">
+          <li><a href="oge.html">ОГЭ</a></li>
+          <li><a href="ege.html">ЕГЭ</a></li>
+        </ul>
+      </li>
+      <!-- ОГЭ > Кодификатор, Спецификация, Демо-вариант, Книги, Тематические тренажёры \ ЕГЭ > Кодификатор, Спецификация, Демо-вариант, Книги, Тематические тренажёры, Опопрные конспекты по темам -->
+      <li class="expandable">
+        <a href="#">Обучающимся</a>
+        <ul class="menu">
+          <li><a href="student_physic.html">Физика</a></li>
+          <li><a href="student_astronomy.html">Астрономия</a></li>
+        </ul>
+      </li>
+      <!-- Физика 7, 8, 9, 10, 11 > Полезные ссылки, Тренажёры, Подготовка к ВПР
+          Астрономия
+          КТП
+      -->
+      <li class="expandable">
+        <a href="#">Учителям</a>
+        <ul class="menu">
+          <li><a href="teacher_physic.html">Физика</a></li>
+          <li><a href="teacher_astronomy.html">Астрономия</a></li>
+          <li><a href="ktp.html">КТП</a></li>
+        </ul>
+      </li>
+      <!-- Физика 7, 8, 9, 10, 11 > Книги, Тесты, Самостоятельные работы, Контрольные работы, Лабораторные работы, Презентации, Полезные ссылки
+          Астрономия
+          КТП
+      -->
+      <li><a href="about.html" class="contrast">Обо мне</a></li>
+      <!-- h1Уважаемые коллеги и учащиеся!h1
+              Меня зовут Дворядкина Дарья Александровна, я являюсь преподавателем физики и астрономии МБОУ "Лицей №13" г. Ростова-на-Дону. Мой стаж составляет неполных 10 лет. Я получила замечательное образование в южном федеральном университете, и по специальности являюсь магистром физического образования. Я имею высшую категорию, но в данный момент обучаюсь в аспирантуре Донского Государственного Технического Университета.  Я считаю что преподавание это один из самых замечательных способов привнесения добра в этот мир. Дети это наше будущее и настоящее. Что может быть лучше чем передавать свои знания подрастающим поколениям. 
+
+              На моём сайте учащиеся найдут много полезного контента, а учителя пополнят свой запас методических материалов.
+            
+
+            -->
+    </ul>
+    <header class="header minimized">
+      <div class="container">
+        <nav>
+          <i class="fas fa-bars" id="openMenu"></i>
+          <h1 class="logo"><i class="fas fa-atom"></i> Teacher</h1>
+          <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li class="expandable">
+              <a href="#">Экзамены</a>
+              <ul class="menu">
+                <li><a href="oge.html">ОГЭ</a></li>
+                <li><a href="ege.html">ЕГЭ</a></li>
+              </ul>
+            </li>
+            <li class="expandable">
+              <a href="#">Обучающимся</a>
+              <ul class="menu">
+                <li><a href="student_physic.html">Физика</a></li>
+                <li><a href="student_astronomy.html">Астрономия</a></li>
+              </ul>
+            </li>
+            <li class="expandable">
+              <a href="#">Учителям</a>
+              <ul class="menu">
+                <li><a href="teacher_physic.html">Физика</a></li>
+                <li><a href="teacher_astronomy.html">Астрономия</a></li>
+                <li><a href="ktp.html">КТП</a></li>
+              </ul>
+            </li>
+            <li class="contrast"><a href="about.html">Обо мне</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="subject">
+      <div class="categories classes">
+        <div class="container">
+          <p data-class="physic7teacher">7 класс</p>
+          <p data-class="physic8teacher">8 класс</p>
+          <p data-class="physic9teacher">9 класс</p>
+          <p data-class="physic10teacher">10 класс</p>
+          <p data-class="physic11teacher">11 класс</p>
+        </div>
+      </div>
+
+      <div class="categories types">
+        <div class="container">
+          <p data-category="books">Книги</p>
+          <p data-category="tests">Тесты</p>
+          <p data-category="selftests">Самостоятельные работы</p>
+          <p data-category="controltests">Контрольные работы</p>
+          <p data-category="labtests">Лабораторные работы</p>
+          <p data-category="presentations">Презентации</p>
+          <p data-category="usefullinks">Полезные ссылки</p>
+        </div>
+      </div>
+      <div class="files">
+        <div class="container">
+          <div class="file">
+            <h3>Кодификатор 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+              voluptate corrupti id incidunt, saepe culpa soluta quae explicabo
+              neque dignissimos inventore quas obcaecati! Corrupti voluptatem
+              eveniet libero et vitae minus?
+            </p>
+            <a href="#">Скачать</a>
+            <a href="#">Открыть онлайн</a>
+          </div>
+          <div class="file">
+            <h3>Кодификатор 2</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+              voluptate corrupti id incidunt, saepe culpa soluta quae explicabo
+              neque dignissimos inventore quas obcaecati! Corrupti voluptatem
+              eveniet libero et vitae minus?
+            </p>
+            <a href="#">Скачать</a>
+            <a href="#">Открыть онлайн</a>
+          </div>
+          <div class="file">
+            <h3>Кодификатор 3</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+              voluptate corrupti id incidunt, saepe culpa soluta quae explicabo
+              neque dignissimos inventore quas obcaecati! Corrupti voluptatem
+              eveniet libero et vitae minus?
+            </p>
+            <a href="#">Скачать</a>
+            <a href="#">Открыть онлайн</a>
+          </div>
+        </div>
+        <!-- <li>
+          <h3>Filename</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+            voluptate corrupti id incidunt, saepe culpa soluta quae explicabo
+            neque dignissimos inventore quas obcaecati! Corrupti voluptatem
+            eveniet libero et vitae minus?
+          </p>
+          <a href="#">Скачать</a>
+          <a href="#">Открыть онлайн</a>
+        </li>
+        <li>
+          <h3>Filename</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+            voluptate corrupti id incidunt, saepe culpa soluta quae explicabo
+            neque dignissimos inventore quas obcaecati! Corrupti voluptatem
+            eveniet libero et vitae minus?
+          </p>
+          <a href="#">Скачать</a>
+          <a href="#">Открыть онлайн</a>
+        </li> -->
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2020 Все права защищены</p>
+        <ul>
+          <li class="soc">
+            <a href="https://vk.com/id311659207"><i class="fab fa-vk"></i></a>
+          </li>
+          <li class="soc">
+            <a
+              href="https://instagram.com/daria_dvoryadkina15?igshid=gv9hkqtd22l2"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+
+          <li><a href="about.html">Обо мне</a></li>
+        </ul>
+        <!-- Ссылки на соц сети -->
+      </div>
+    </footer>
+    <div class="overlay"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
