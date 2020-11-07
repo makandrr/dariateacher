@@ -53,6 +53,11 @@ ul {
   padding: 1em 1em !important;
 }
 
+.header .logo a {
+  color: inherit;
+  text-decoration: none;
+}
+
 h1 {
   margin: 0;
 }
