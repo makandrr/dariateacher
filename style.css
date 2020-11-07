@@ -731,6 +731,12 @@ h1 {
   margin-bottom: 3em;
 }
 
-.about .leftimage {
+.about .container > img {
+  flex: 1;
   border-radius: 0.9em;
+  border-bottom: 14px solid indigo;
+}
+
+.about .container > .text {
+  flex: 4;
 }
